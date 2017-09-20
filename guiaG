@@ -1,0 +1,17 @@
+pasos para subir a git 
+
+echo "# usuarioEtapas (nombre de la carpeta del usuario creada" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Pedrotto/usuarioEtapas.git
+git push -u origin master
+
+**el archivo debe estar cargado en la misma carpeta donde se va mandar
+ejemplo:
+
+git add ARCHIVO
+git commit -m "i added ARCHIVO"
+git push -u origin master
+**te pide tu cuenta y la contraseña
+ok
